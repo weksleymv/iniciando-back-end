@@ -10,8 +10,7 @@ appointmentsRouter.use(ensureAuthenticated);
 
 // Rota GET
 // appointmentsRouter.get('/', async (request, response) => {
-//   const appointmentsRepository = getCustomRepository(AppointmentsRepository);
-//   const appointments = await appointmentsRepository.find();
+//   const appointments = await appointmentsController.
 //   return response.json(appointments);
 // });
 
