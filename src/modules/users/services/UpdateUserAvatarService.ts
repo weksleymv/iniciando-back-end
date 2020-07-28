@@ -17,7 +17,7 @@ export default class UpdateUserAvatarService {
     @inject('UsersRepository')
     private usersRepository: IUsersRepository,
 
-    @inject('StoreRepository')
+    @inject('StorageProvider')
     private storageProvider: IStorageProvider,
   ) {}
 
